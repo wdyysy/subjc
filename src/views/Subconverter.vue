@@ -340,7 +340,7 @@ export default {
         customBackend: {
           "自用后端【subconverter--sg.me:】": "https://cl.ll2hhh.filegear-sg.me",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
-          "默认已改【subconverter--sg.me】": "https://cl.ll2hhh.filegear-sg.me",
+          "自用已改【subconverter--sg.me】": "https://cl.ll2hhh.filegear-sg.me",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://api.v1.mk",
         },
         backendOptions: [
@@ -1304,6 +1304,7 @@ export default {
   }
 };
 </script>
+
 
 
 
