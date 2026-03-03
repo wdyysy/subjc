@@ -1293,6 +1293,7 @@ export default {
         .then(res => {
           this.backendVersion = res.data.replace(/backend\n$/gm, "");
           this.backendVersion = this.backendVersion.replace("subconverter", "SubConverter");
+          this.backendVersion += " hi";
           let a = this.form.customBackend.indexOf("url.v1.mk") !== -1 || this.form.customBackend.indexOf("api.v1.mk") !== -1;
           let b = this.form.customBackend.indexOf("127.0.0.1") !== -1;
           a ? this.$message.success(`${this.backendVersion}` + "肥羊负载均衡增强版后端，已屏蔽免费节点池（会返回403），额外支持vless reality+hysteria+hysteria2订阅转换") : b ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}`);
@@ -1304,6 +1305,7 @@ export default {
   }
 };
 </script>
+
 
 
 
