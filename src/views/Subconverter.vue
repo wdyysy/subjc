@@ -340,7 +340,7 @@ export default {
         customBackend: {
           "自用后端【subconverter--sg.me:】": "https://cl.ll2hhh.filegear-sg.me",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
-          "自用已改【subconverter--sg.me】": "https://cl.ll2hhh.filegear-sg.me",
+          "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://api.v1.mk",
         },
         backendOptions: [
@@ -780,7 +780,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://选择.com" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
@@ -1304,6 +1304,7 @@ export default {
   }
 };
 </script>
+
 
 
 
