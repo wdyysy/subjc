@@ -338,13 +338,13 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "自用后端【subconverter--sg.me】": "https://cl.ll2hhh.filegear-sg.me",
+          "自用后端【subconverter--org】": "https://suapi.mqw.dpdns.org",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://api.v1.mk",
         },
         backendOptions: [
-          { value: "https://cl.ll2hhh.filegear-sg.me" },
+          { value: "https://suapi.mqw.dpdns.org" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
@@ -1296,7 +1296,7 @@ export default {
           this.backendVersion += " version返回后加上语句-除肥羊外的后端";
           let a = this.form.customBackend.indexOf("url.v1.mk") !== -1 || this.form.customBackend.indexOf("api.v1.mk") !== -1;
           let b = this.form.customBackend.indexOf("127.0.0.1") !== -1;
-          a ? this.$message.success(`${this.backendVersion}` + "肥羊负载均衡增强版后端，已屏蔽免费节点池（会返回403），额外支持vless reality+hysteria+hysteria2订阅转换") : b ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}` + "---这句是后面succes第三个语句");
+          a ? this.$message.success(`${this.backendVersion}` + "肥羊负载均衡增强版后端，已屏蔽免费节点池（会返回403），额外支持vless reality+hysteria+hysteria2订阅转换") : b ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}` + "---这句是后面succe第三个语句");
         })
         .catch(() => {
           this.$message.error("请求SubConverter版本号返回数据失败，该后端不可用！");
