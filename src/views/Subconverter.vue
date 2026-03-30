@@ -1297,6 +1297,7 @@ export default {
         .then(res => {
           this.backendVersion = res.data.replace(/backend\n$/gm, "");
           this.backendVersion = this.backendVersion.replace("subconverter", "SubConverter");
+          this.backendVersion += "version返回后自加文字";
           let b = this.form.customBackend.indexOf("127.0.0.1") !== -1;
           b ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}`);
         })
