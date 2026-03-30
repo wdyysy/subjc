@@ -13,7 +13,7 @@
                 <div class="subconverter-hero__stats">
                   <div class="subconverter-stat subconverter-stat--backend">
                     <span>后端版本</span>
-                    <strong>{{ backendVersion || "等待检测-加文字" }}</strong>
+                    <strong>{{ backendVersion || "等待检测-加文字-202603版" }}</strong>
                   </div>
                 </div>
               </div>
