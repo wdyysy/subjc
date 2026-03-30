@@ -13,7 +13,7 @@
                 <div class="subconverter-hero__stats">
                   <div class="subconverter-stat subconverter-stat--backend">
                     <span>后端版本</span>
-                    <strong>{{ backendVersion || "等待检测" }}</strong>
+                    <strong>{{ backendVersion || "等待检测-加文字" }}</strong>
                   </div>
                 </div>
               </div>
@@ -345,7 +345,7 @@ export default {
           "dlj.tf": "https://dlj.tf/short",
         },
         customBackend: {
-          "CM提供-负载均衡后端": "https://subapi.mqw.dpdns.org",
+          "自用后端-subconverter--org": "https://subapi.mqw.dpdns.org",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
           "肥羊提供-增强型后端": "https://url.v1.mk",
           "肥羊提供-备用后端": "https://api.v1.mk",
