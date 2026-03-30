@@ -347,13 +347,13 @@ export default {
         customBackend: {
           "自用后端-subconverter--org": "https://subapi.mqw.dpdns.org",
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
-          "自用后端-subconverter--org": "https://subapi.mqw.dpdns.org",
+          "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊提供-备用后端": "https://api.v1.mk",
         },
         backendOptions: [
           { value: "https://subapi.mqw.dpdns.org" },
           { value: "https://subapi.fxxk.dedyn.io" },
-          { value: "https://subapi.mqw.dpdns.org" },
+          { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
         ],
         remoteConfig: [
